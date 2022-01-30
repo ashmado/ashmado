@@ -15,6 +15,8 @@ h1 {
 body {
    background: url("images/grass_pixel_bg.png") fixed;
    overflow: none;
+   font-family: Apple;
+   color: #06002e;;
 }
 
 
@@ -23,7 +25,13 @@ html, body {margin: 0; height: 100%; overflow: hidden;
    cursor: url("images/cursor.gif"), crosshair;}
 
 a { 
-   cursor: url("images/cursor.gif"), crosshair; }
+   cursor: url("images/cursor.gif"), crosshair;
+   text-decoration: none;
+   }
+
+.start {
+   color: #fff;
+}
 
 .container {
    width: 700px;
@@ -151,6 +159,15 @@ h1 {
    text-align: center;
    left: 110px;
    position: relative;
+}
+
+#redo {
+   position: fixed;
+   bottom: 15px;
+   right: 15px;
+   font: Apple;
+   color: #fff;
+   size: 10px;
 }
 
 
